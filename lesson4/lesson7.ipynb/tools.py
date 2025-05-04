@@ -2,7 +2,7 @@ import tools
 def main():
     height:int = int(input("請輸入身高公分"))
     weight:int = int(input("請輸入體重公斤"))
-    BMI:float = tools.get(weught,heught)
+    BMI:float = tools.get(weight,height)
 
     print(f"身高:{height}""cm")
     print(f"體重:{weight}""kg")
